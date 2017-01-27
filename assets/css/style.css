@@ -1,0 +1,49 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+          text-align: center;
+}
+
+body {
+  background: #C0CAAD;
+  font-family: 'Roboto', sans-serif;
+  color: #2B2D42;
+  font-size: 20px;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 48px;
+}
+
+h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  color: red;
+}
+
+.container {
+  background: #654C4F;
+  min-width: 300px;
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container > div {
+  background: #654C4F;
+  width: 33.33%;
+  height: 120px;
+  border: 1px solid #8D99AE;
+  font-size: 75px;
+  color: #EDF2F4;
+  line-height: 100px;
+}
+
+button {
+  margin-top: 15px;
+  padding: 5px;
+  font-size: 18px;
+}
